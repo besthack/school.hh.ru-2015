@@ -6,6 +6,10 @@ use Math::BigInt;
 # will warn if Math::BigInt::GMP cannot be found
 use Math::BigInt lib => 'GMP';
 
+# Сумма ряда 1**1 + 2**2 + 3**3 + ... + 10**10 = 10405071317, десять последних цифр: 0405071317.
+
+# Найдите 10 последних цифр в конечной сумме ряда 1**1 + 2**2 + 3**3 + ... + 1493**1493. 
+
 my $t = Math::BigInt->new("0");
 my $module = Math::BigInt->new("10000000000");	
 
